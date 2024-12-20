@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.row{
+    /* width:50%; */
+    margin: auto;
+    padding: 10px 50px;
+    border: 2px solid black;
+    background-color: rgb(15, 89, 130);
+    border-radius: 20px;
+}
+
+
+
+.container{
+    padding: 80px 0px;
+
+}
+
+.inp{
+    padding: 10px 0px;
+}
+.inp2{
+    padding: 10px 0px;
+}
+
+.inp p,.inp2 p{
+    padding: 10px 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.inp input{
+    border:1px dotted black ;
+    padding: 10px 30px;
+    background-color: rgb(247, 244, 244);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.inp2 input{
+    border:1px dotted black ;
+    padding: 10px 30px;
+    background-color: rgb(233, 225, 225);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.touch{
+    padding: 10px 60px;
+}
+
+.touch input{
+    padding: 10px 40px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(113, 29, 133);
+    color: rgb(250, 248, 248);
+    border-radius: 20px;
+}

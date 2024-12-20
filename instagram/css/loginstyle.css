@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: rgb(10, 4, 31);
+    height:100vh;
+}
+/*.container{
+    width:30%;
+    margin:auto;
+}*/
+
+.row{
+    width:100%;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    padding:150px 50px;
+    text-align: center;
+}
+input:hover {
+    background-color: rgb(20, 9, 59);
+    box-shadow: 0px 0px 15px  rgb(76, 69, 99);
+}
+ h1:hover{
+    text-shadow: 0px 0px 15px  rgb(76, 69, 99);
+ }
+input{
+    padding:13px 20px;
+    border-radius:20px;
+    text-align: center;
+    background-color: rgb(29, 15, 78);
+    width: 90%;
+    color: rgb(230, 227, 238);
+    font-family: arial;
+    border: 1px solid black;
+}
+.icon3 input{
+    background-color: aliceblue;
+    font-weight: bold;
+    color: rgb(29, 15, 78);
+    text-transform: capitalize;
+}
+.icon1,.icon2,.icon3{
+    padding-top: 30px;
+}
+.icon1{
+    position:relative;
+
+}
+.icon1 i{
+    position:absolute;
+    top:45%;
+    left:5%;
+}
+.icon2{
+    position: relative;
+}
+ i{
+    color:white;
+}
+
+.icon2 i {
+    position:absolute;
+    top:45%;
+    right:5%;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color:white;
+    font-family:arial;
+    font-weight: bold;
+}

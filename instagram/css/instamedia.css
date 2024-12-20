@@ -1,0 +1,162 @@
+@media(min-width:320px){
+    .card-col{
+        width:100%;
+        padding:20px;
+    }
+    .card-container{
+        width:95%;
+    }
+
+    .edu-col{
+        width:100%;
+        padding:20px;
+    }
+    .edu-container{
+        width:95%;
+    }
+
+
+
+    .header-container{
+        width:100%;
+        position:relative;
+        }
+        .header-icon{
+            display:block;
+            padding-left:180px;
+        }
+        .header-navi{
+            visibility:hidden;
+            position:absolute;
+            top:50px;
+            left:0%;
+            line-height:6;
+            background-color: azure;
+        }
+        .header-section:hover .header-navi{
+            visibility:visible;
+        }
+        .header-navi ul{
+            flex-direction:column;
+        }
+        .header-navi a{
+        text-decoration:none;
+        color:rgb(43, 46, 46);
+        font-family:borel;
+        font-size: 18px;
+        }
+        .header-portfolio{
+            width:40%;
+        }
+        .header-navi .head-anchor{
+            color:rgb(13, 13, 14);
+            font-weight:bold;
+        }
+}
+
+@media(min-width:660px){
+    .card-col{
+        width:90%;
+        padding:20px;
+    }
+    .card-container{
+        width:90%;
+    }
+
+    .edu-col{
+        width:90%;
+        padding:20px;
+    }
+    .edu-container{
+        width:90%;
+    }
+
+
+
+    .header-container{
+        width:100%;
+        }
+        .header-icon{
+            display:block;
+            padding-left:500px;
+        }
+        .header-navi{
+            visibility:hidden;
+            top:50px;
+            left:0%;
+            line-height:8;
+            background-color: azure;
+        }
+        .burger:hover .header-navi{
+            visibility:visible;
+        }
+        .header-navi ul{
+            flex-direction:column;
+        }
+        .header-navi a{
+        text-decoration:none;
+        color:rgb(108, 117, 117);
+        font-family:borel;
+        font-size: 18px;
+        }
+        .header-portfolio{
+            width:25%;
+        }
+        .header-navi .head-anchor{
+            color:rgb(12, 12, 12);
+            font-weight:bold;
+        }
+}
+
+
+@media(min-width:1000px){
+    .card-col{
+        width:33.33%;
+        padding:20px;
+    }
+    .card-container{
+        width:80%;
+    }
+
+    .edu-col{
+        width:33.33%;
+        padding:20px;
+    }
+    .edu-container{
+        width:80%;
+    }
+
+
+    .header-container{
+        width:90%;
+        margin:auto;
+        }
+        .header-icon{
+            display:none;
+            padding-left:0px;
+        }
+        .header-navi{
+            visibility:visible;
+            top:5%;
+            left:25%;
+            line-height:3;
+            background-color: azure;
+        }
+        .header-navi ul{
+            flex-direction:row;
+        }
+        .header-navi a{
+            text-decoration:none;
+            color:rgb(97, 88, 88);
+            font-family:borel;
+            font-size: 18px;
+        }
+        .header-portfolio{
+            width:25%;
+        }
+
+        .header-navi .head-anchor{
+            color:rgb(13, 13, 14);
+            font-weight:bold;
+        }
+}

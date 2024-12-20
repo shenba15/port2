@@ -1,0 +1,138 @@
+<!DocType HTML>
+	<head>
+		<title>Swiggy</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- header -->
+		<header>
+			<div class="head-container">
+				<div class="head-row">
+					<div class="head-col1">
+						<div class="head-logo">
+							<img src="images/logo.png" alt="">
+						</div>
+						<p>
+							<span class="head-change" style="text-decoration: underline;color: black;font-weight: bold;">Other</span>
+							Tirunelveli, Tamil Nadu, India
+							<i class="bi bi-caret-down-fill" style="color: orange;"></i>
+						</p>
+					</div>
+					<div class="head-col2">
+						<div>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+							<p>Search</p>
+                        </div>
+						<div>
+                            <i class="fa fa-percent" aria-hidden="true"></i>
+							<p>Offers<sup>New</sup></p>
+                        </div>
+						<!-- <div>
+                            <i class="fa fa-bandcamp" aria-hidden="true"></i>
+							<p>Help</p>
+                        </div> -->
+						<div>
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+							<p>Sign In</p>
+                        </div>
+						<div>
+                            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+							<p>Cart</p>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- card-section -->
+		<section class="card-section">
+		<div class="card-container">
+			<div class="card-row">
+				<h2>Restaurants with online food delivery in Tirunelveli</h2>
+				<div class="card-col1">
+					<div class="card-head">
+						<p onclick="relevance()">Relevance</p>
+					</div>
+					<div class="card-head" onclick="ratingGreaterThan4()">
+						<p>Ratings 4.0+
+						</p>
+					</div>
+					<div class="card-head" onclick="vegetarian()">
+						<p>Pure veg</p>
+					</div>
+					<div class="card-head" onclick="lessThan300()">
+						<p>Less than Rs.300</p>
+					</div>
+					<div class="card-head" onclick="greaterThan300()">
+						<p>Greater than Rs.300</p>
+					</div>
+					<div class="card-head"  onclick="sortRatingHightoLow()">
+						
+						<p>Rating high to low</p>
+					</div>
+					<div class="card-head" onclick="priceHightoLow()">
+						<p>Price high to low</p>
+					</div>
+					<div class="card-head" onclick="priceLowtoHigh()">
+						<p>Price low to high</p>
+					</div>
+					<div class="card-head" onclick="fastDelivery()">
+						<p>fast delivery</p>
+					</div>
+				</div>
+				<div class="card-col2" id="cardcol2">
+
+				</div>
+			</div>
+		</div>
+		</section>
+
+
+		<!-- footer -->
+		<footer>
+			<div class="foot-container">
+				<div class="foot-row">
+					<div class="foot-col">
+						<div class="foot-logo">
+							<img src="images/footer.png" alt="">
+						</div>
+						<div class="foot-logopara">
+							<p>© 2023 Bundl</p>
+							<p> Technologies Pvt. Ltd</p>
+						</div>
+					</div>
+					<div class="foot-col">
+						<h4 class="foot-paras">Company</h4>
+						<p>About</p>
+						<p>Careers</p>
+						<p>Team</p>
+						<p>Swiggy One</p>
+						<p>Swiggy Instamart</p>
+						<p>Swiggy Genie</p>
+					</div>
+					<div class="foot-col">
+						<h4 class="foot-paras">Contact us</h4>
+						<p>Help & Support</p>
+						<p>Partner with us</p>
+						<p>Ride with us</p>
+					</div>
+					<div class="foot-col">
+						<h4 class="foot-paras">We deliver to:</h4>
+						<p>Bangalore</p>
+						<p>Gurgaon</p>
+						<p>Hyderabad</p>
+						<p>Delhi</p>
+						<p>Mumbai</p>
+						<p>Pune</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="main.js">
+		</script>
+	</body>
+</html>

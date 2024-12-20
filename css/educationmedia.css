@@ -1,0 +1,125 @@
+@media(min-width:320px){
+    
+    .section1,.section2,.section3,.section4,.section5{
+        width: 30%;
+    }
+    
+
+    
+    .edu-main-head h3{
+        font-size: 2em;
+     }
+
+     .edu-main-head{
+    
+        left:25%;
+     }
+     .edu-container{
+        width: 90%;
+        padding: 5% 0%;
+     }
+     .edu-head h1{
+        font-size: 3.5em;
+     }
+     .edu-col{
+        width: 100%;
+     }
+
+     .language-col{
+        width: 100%;
+     }
+
+     .profession-col{
+        width: 100%;
+     }
+     .language-container{
+        width: 90%;
+     }
+}
+
+
+
+@media(min-width:660px){
+    
+    .section1,.section2,.section3,.section4,.section5{
+        width: 20%;
+    }
+
+    
+   
+    
+
+    .edu-main-head h3{
+        font-size: 2.5em;
+     }
+
+     .edu-main-head{
+    
+        left:30%;
+     }
+
+     .edu-container{
+        width: 90%;
+        padding: 5% 0%;
+     }
+     .language-container{
+        width: 90%;
+     }
+     .edu-head h1{
+        font-size: 5em;
+     }
+
+     .edu-col{
+        width: 100%;
+     }
+
+     .language-col{
+        width: 100%;
+     }
+
+     .profession-col{
+        width: 100%;
+     }
+}
+
+
+
+@media(min-width:1000px){
+    
+    .section1,.section2,.section3,.section4,.section5{
+        width: 10%;
+    }
+
+    
+
+    .edu-main-head h3{
+        font-size: 2.5em;
+     }
+     .edu-main-head{
+    
+        left:40%;
+     }
+
+     .edu-container{
+        width: 80%;
+        padding: 1% 0%;
+     }
+
+     .edu-head h1{
+        font-size: 5em;
+     }
+     .edu-col{
+        width: 50%;
+     }
+
+     .language-col{
+        width: 50%;
+     }
+
+     .profession-col{
+        width: 50%;
+     }
+     .language-container{
+        width: 80%;
+     }
+}

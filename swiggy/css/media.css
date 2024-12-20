@@ -1,0 +1,82 @@
+@media(min-width:320px){
+    
+    .card-head{
+        width: 100%;
+    }
+    .card-card{
+        width:100%
+    }
+    .foot-row{
+        width: 90%;
+    }
+    .foot-col{
+        width: 100%;
+    }
+    .head-col1{
+        width: 100%;
+    }
+    .head-col2{
+        width: 100%;
+    }
+    .head-logo{
+        width: 20%;
+    }
+    .head-row{
+        width: 90%;
+    }
+}
+
+@media(min-width:660px){
+    .card-head{
+        width: 20%;
+    }
+    .card-card{
+        width:45%
+    }
+    .foot-row{
+        width: 90%;
+    }
+    .foot-col{
+        width: 40%;
+    }
+    .head-col1{
+        width: 50%;
+    }
+    .head-col2{
+        width: 50%;
+    }
+    .head-logo{
+        width: 12%;
+    }
+    .head-row{
+        width: 90%;
+    }
+}
+
+
+@media(min-width:1000px){
+    .card-head{
+        width: 10%;
+    }
+    .card-card{
+        width:21%
+    }
+    .foot-row{
+        width: 80%;
+    }
+    .foot-col{
+        width: 20%;
+    }
+    .head-col1{
+        width: 50%;
+    }
+    .head-col2{
+        width: 50%;
+    }
+    .head-logo{
+        width: 12%;
+    }
+    .head-row{
+        width: 90%;
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    
+	<head>
+		<title>DIGITAL CLOCK</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width , initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+        <section>
+            <div class="container">
+                <div class="row1">
+                    <div class="col1">
+                        <div class="col1-content">
+                            <h1>
+                                DATE
+                            </h1>
+                            <p id="date">
+                                00
+                            </p>
+                        </div>
+                        <div class="col1-content">
+                            <h1>
+                                MONTH
+                            </h1>
+                            <p id="month">
+                                00
+                            </p>
+                        </div>
+                        <div class="col1-content">
+                            <h1>
+                                YEAR
+                            </h1>
+                            <p id="year">
+                                00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row3">
+                    <div class="col3">
+                        <div class="col3-content">
+                            <h1>TIME</h1>
+                        </div> 
+                        <div class="col3-content">
+                            <div class="timer">
+                                <div id="hour" class="col3-time">
+                                    00
+                                </div>
+                                <p>:</p>
+                                <div id="min" class="col3-time">
+                                    00
+                                </div>
+                                <p>:</p>
+                                <div id="sec" class="col3-time">
+                                    00
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="col3-content">
+                            <div class="rad">
+                                <div class="ampm"></div>
+                                <p>AM</p>
+                            </div>
+                            <div class="rad">
+                                <div class="ampm"></div>
+                                <p>PM</p>
+                            </div>
+                        </div>-->
+                        <div class="col3-content click">
+                            <div class="rad">
+                               <input type="radio"><span id="am">AM</span>
+                            </div>
+                            <div class="rad">
+                                <input type="radio" ><span id="pm">PM</span>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+                <div class="row2">
+                    <div class="col2">
+                        <div class="col2-content">
+                            <input type="radio">
+                            <h1 id="sun">SUN</h1>
+                        </div>
+                        <div class="col2-content">
+                            <input type="radio">
+                            <h1 id="mon">MON</h1>
+                        </div>
+                        <div class="col2-content">
+                            <input type="radio">
+                            <h1 id="tue">TUE</h1>
+                        </div>
+                        <div class="col2-content">
+                            <input type="radio">
+                            <h1 id="wed">WED</h1>
+                        </div>
+                        <div class="col2-content">
+                            <input type="radio">
+                            <h1 id="thu">THU</h1>
+                        </div>
+                        <div class="col2-content">
+                            <input type="radio">
+                            <h1 id="fri">FRI</h1>
+                        </div>
+                        <div class="col2-content">
+                            <input type="radio">
+                            <h1 id="sat">SAT</h1>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <script src="main.js"></script>
+	</body>
+
+</html>

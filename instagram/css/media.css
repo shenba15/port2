@@ -1,0 +1,43 @@
+@media(min-width:320px){
+    .container{
+        width:90%;
+        margin:auto;
+    }
+    form{
+    padding:25px 0px;
+    }
+    .row{
+        padding-top:80px;
+        padding-bottom:80px;
+    }
+}
+
+
+@media(min-width:660px){
+    .container{
+        width:90%;
+       margin:auto;
+    }
+    form{
+        padding:45px 60px;
+    }
+    .row{
+        padding-top:200px;
+        padding-bottom:200px;
+    }
+}
+
+
+@media(min-width:1000px){
+    .container{
+        width:35%;
+        margin:auto;
+    }
+    form{
+        padding:25px 40px;
+    }
+    .row{
+        padding-top:90px;
+        padding-bottom:90px;
+    }
+}

@@ -1,0 +1,110 @@
+@media(min-width:320px){
+    
+    .section1,.section2,.section3,.section4,.section5{
+        width: 30%;
+    }
+    
+
+
+    
+    .contact-row{
+       width: 90%;
+       padding: 5% 0%;
+    }
+    .contact-main-head h3{
+        font-size: 2em;
+     }
+
+     .contact-main-head{
+    
+        left:25%;
+     }
+
+     .contact-card{
+        
+        width:100%; 
+     }
+
+     .contact-form{
+        width: 100%;
+     }
+     .contact-location{
+        width:100%;
+     }
+}
+
+
+
+@media(min-width:660px){
+    
+    .section1,.section2,.section3,.section4,.section5{
+        width: 20%;
+    }
+
+    
+    
+    
+    .contact-row{
+        width: 90%;
+        padding: 3% 0%;
+     }
+
+     .contact-main-head h3{
+        font-size: 2.5em;
+     }
+
+     .contact-main-head{
+    
+        left:30%;
+     }
+
+
+     .contact-card{
+        
+        width:80%; 
+     }
+
+
+     .contact-form{
+        width: 80%;
+     }
+
+     .contact-location{
+        width:80%;
+     }
+}
+
+
+
+@media(min-width:1000px){
+    
+    .section1,.section2,.section3,.section4,.section5{
+        width: 10%;
+    }
+
+    
+    .contact-row{
+        width: 80%;
+        padding: 3% 0%;
+     }
+     .contact-main-head h3{
+        font-size: 2.5em;
+     }
+     .contact-main-head{
+    
+        left:40%;
+     }
+
+     .contact-card{
+        
+        width:33.33%; 
+     }
+
+     .contact-form{
+        width: 50%;
+     }
+
+     .contact-location{
+        width:50%;
+     }
+}
